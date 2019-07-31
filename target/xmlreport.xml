@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.009922">
+<testcase classname="Flight application" name="login details" time="0.009922">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at cucum.tags.user_types_as_username_and_as_password(tags.java:27)&#13;&#10;&#9;at ✽.user types &quot;mercury&quot; as username and &quot;mercury&quot; as password(src/test/resources/sample/tags.feature:9)&#13;&#10;"><![CDATA[When user types "mercury" as username and "mercury" as password.............failed
+
+StackTrace:
+java.lang.NullPointerException
+	at cucum.tags.user_types_as_username_and_as_password(tags.java:27)
+	at ✽.user types "mercury" as username and "mercury" as password(src/test/resources/sample/tags.feature:9)
+]]></failure>
+</testcase>
+</testsuite>
